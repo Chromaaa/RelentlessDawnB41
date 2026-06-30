@@ -602,11 +602,11 @@ SandboxVars = {
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 28,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 0.0,
+        RespawnHours = 336.0,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
-        RespawnUnseenHours = 0.0,
+        RespawnUnseenHours = 32.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
-        RespawnMultiplier = 0.0,
+        RespawnMultiplier = 0.1,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
         RedistributeHours = 168.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
@@ -1471,7 +1471,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=25.00
         FastShambler_Day = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter_Day = 2.0,
+        Sprinter_Day = 3.0,
         -- Minimum=0.00 Maximum=100.00 Default=30.00
         Fragile_Day = 30.0,
         -- Minimum=0.00 Maximum=100.00 Default=50.00
@@ -1487,7 +1487,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=65.00
         FastShambler_Night = 65.0,
         -- Minimum=0.00 Maximum=100.00 Default=5.00
-        Sprinter_Night = 2.0,
+        Sprinter_Night = 3.0,
         -- Minimum=0.00 Maximum=100.00 Default=30.00
         Fragile_Night = 30.0,
         -- Minimum=0.00 Maximum=100.00 Default=50.00
@@ -1503,7 +1503,7 @@ SandboxVars = {
         -- Minimum=0.00 Maximum=100.00 Default=25.00
         FastShambler_Special = 25.0,
         -- Minimum=0.00 Maximum=100.00 Default=65.00
-        Sprinter_Special = 2.0,
+        Sprinter_Special = 3.0,
         -- Minimum=0.00 Maximum=100.00 Default=30.00
         Fragile_Special = 30.0,
         -- Minimum=0.00 Maximum=100.00 Default=50.00
@@ -2634,3 +2634,4 @@ SandboxVars = {
         crosshairBlueLimit = 0.0,
     },
 }
+
